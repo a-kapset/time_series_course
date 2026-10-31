@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tests and linters
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Data
+data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+*.h5
+*.hdf5
+*.zip
+*.gz
+
+# Models and artifacts
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Experiment tracking
+mlruns/
+wandb/
+lightning_logs/
+outputs/
+logs/
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
